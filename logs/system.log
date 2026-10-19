@@ -1,0 +1,7 @@
+[2026-10-19 12:23:35] [INFO] [IP: ::1] [LAPTOP_ADDED] - A new laptop (SN: SN-1009) was added to the system
+[2026-10-19 14:03:52] [INFO] [IP: ::1] [LAPTOP_ADDED] - A new laptop (SN: SN-1010) was added to the system
+[2026-10-19 14:04:00] [INFO] [IP: ::1] [EMPLOYEE_UPDATED] - Employee ID (7) details were updated by admin
+[2026-10-19 14:04:11] [INFO] [IP: ::1] [LAPTOP_UPDATED] - Laptop ID (8) details were updated
+[2026-10-19 14:04:14] [INFO] [IP: ::1] [LAPTOP_UPDATED] - Laptop ID (4) details were updated
+[2026-10-19 20:31:40] [WARNING] [IP: ::1] [EMPLOYEE_DELETED] - Employee ID (7) was deleted from the system
+[2026-10-19 20:41:29] [WARNING] [IP: ::1] [PROJECT_DELETED] - Project ID (5) was permanently deleted
