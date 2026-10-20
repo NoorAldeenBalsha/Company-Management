@@ -22,24 +22,24 @@ INSERT INTO laptops (serial_number, model, date_buy, employee_id) VALUES
 ('SN-1002', 'MacBook Pro M2', '2023-02-05', 2),
 ('SN-1003', 'Lenovo ThinkPad', '2022-11-25', 3),
 ('SN-1004', 'HP Spectre x360', '2024-01-15', 4),
-('SN-1005', 'Asus ROG Zephyrus', '2023-05-20', NULL), -- في المستودع
-('SN-1006', 'MacBook Air M1', '2022-08-10', NULL); -- في المستودع
+('SN-1005', 'Asus ROG Zephyrus', '2023-05-20', NULL),
+('SN-1006', 'MacBook Air M1', '2022-08-10', NULL); 
 
--- إدخال 4 مشاريع (3 شغالة، و 1 مخلص)
+-- insert 4 project (3 Work on & 1 Done )
 INSERT INTO projects (name, customer_name, date_start, status) VALUES 
-('E-commerce API', 'Tech Store', '2023-10-01', 'Work on'), -- 1
-('Mobile Banking App', 'National Bank', '2023-11-15', 'Work on'), -- 2
-('Company Website', 'Al-Ameen', '2024-01-05', 'Work on'), -- 3
-('Legacy System Migration', 'Old Corp', '2022-05-01', 'Done'); -- 4 (مخلص)
+('E-commerce API', 'Tech Store', '2023-10-01', 'Work on'), 
+('Mobile Banking App', 'National Bank', '2023-11-15', 'Work on'), 
+('Company Website', 'Al-Ameen', '2024-01-05', 'Work on'), 
+('Legacy System Migration', 'Old Corp', '2022-05-01', 'Done'); 
 
--- إدخال التعيينات (الموظفين على المشاريع)
+-- insert assignments (employees on projects)
 INSERT INTO project_employee (employee_id, project_id, role) VALUES 
--- الموظف الأول (Ahmad) يعمل على 3 مشاريع شغالة (1, 2, 3) لتلبية شرط المشرف
+-- First Employee "Ahmed" Working on 3 active project
 (1, 1, 'lead'),
 (1, 2, 'developer'),
 (1, 3, 'developer'),
 
--- تعيينات باقي المشاريع مع ضمان وجود Lead واحد فقط لكل مشروع
+-- Assignments for the rest of the projects while ensuring there is only one Lead per project
 (2, 1, 'developer'),
 (4, 1, 'tester'),
 
@@ -48,6 +48,6 @@ INSERT INTO project_employee (employee_id, project_id, role) VALUES
 
 (2, 3, 'lead'),
 
--- المشروع المخلص
+-- Done project
 (7, 4, 'lead'),
 (8, 4, 'tester');

@@ -59,7 +59,7 @@ if ($page === 'dashboard') {
 // System logs
 elseif ($page === 'system-logs') {
     $logs = AppLogger::readLogs();
-    view('logs/index', ['logs' => $logs]);
+    view('logs/logs', ['logs' => $logs]);
 }
 
 // Employee
