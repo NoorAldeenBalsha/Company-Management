@@ -2,7 +2,7 @@
 
 A complete Enterprise Resource Planning (ERP) web application built from scratch using raw PHP 8.2 and PDO. It follows a strict Clean Architecture (Controller-Service-Repository) and implements SOLID principles without relying on any external PHP frameworks.
 
-## 🚀 How to Run the Project
+##  How to Run the Project
 
 Follow these steps to set up the project on your local machine using XAMPP, Laragon, or any similar local server:
 
@@ -32,7 +32,7 @@ Move the entire project folder (e.g., `Task_4`) into your local server's documen
 Open your web browser and navigate to the following URL to start using the system:
 http://localhost/Task_4/index.php
 
-🎨 UI & Frontend Credits
+ UI & Frontend Credits
 Framework: The UI is styled using Bootstrap 5.3 via CDN.
 
 Icons: Used Bootstrap Icons.
